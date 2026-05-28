@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Expo and React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+android/
+ios/
+
+# Native/build output
+*.apk
+*.aab
+*.ipa
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

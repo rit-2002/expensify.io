@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Ank.io",
+    "slug": "projects",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Ank.png",
+    "scheme": "ankio",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/AnkWhite.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "dark": {
+        "image": "./assets/images/AnkBlack.png",
+        "backgroundColor": "#0c0c0cff"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/AnkWhite.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.knox26.projects"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/AnkWhite.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-community/datetimepicker",
+      "expo-notifications",
+      "./plugins/withQuickExpenseWidget"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7233ac9c-5312-4438-80e2-afcaefebdfd6"
+      }
+    }
+  }
+}
